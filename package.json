@@ -1,0 +1,24 @@
+{
+    "name": "react-async-state-manager",
+    "version": "1.1.8",
+    "description": "A React hook for asynchronous state management.",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "scripts": {
+        "build": "rollup -c",
+        "start": "cd example && npm start"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    },
+    "devDependencies": {
+        "rollup": "^2.44.0",
+        "rollup-plugin-babel": "^4.4.0",
+        "@rollup/plugin-node-resolve": "^11.2.1",
+        "@rollup/plugin-commonjs": "^17.1.0",
+        "babel-preset-react-app": "^10.0.0"
+    },
+    "author": "Piyush Yadav",
+    "license": "MIT"
+}
